@@ -1,0 +1,6 @@
+.header.cf
+    ul.menu-items.cf
+        -var menu_items = {"Main" : "Main", "About" : "About", "Contact" : "Contact"}
+        each link_type, link_name in menu_items
+            li.menu-items_list
+                a( class="menu-items_link", router-active="active", ng-link="[" + "'" + link_type + "'" + "]" )=link_name
