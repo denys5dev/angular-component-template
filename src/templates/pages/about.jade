@@ -1,2 +1,7 @@
-h2 About: 
-p Fast start with AngularJS, Gulp, Sass, Jade
+.wrapper-about
+    h2 About:
+    img(ng-src="{{model.user.owner.avatar_url}}" width="150")
+    p Repository: 
+        a(href='{{model.user.clone_url}}') Link
+    p {{model.user.owner.login}}
+    p Fast start with AngularJS, Gulp, Sass, Jade
