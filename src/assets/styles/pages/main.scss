@@ -1,3 +1,9 @@
+main{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin: -100px;
+}
 .main-wrapper{
     color: $text-color;
     height: 100%;
@@ -24,6 +30,7 @@
     font-weight:bold;
     padding: 28px;
     display: block;
+    color: $text-color;
 }
 .menu-items_link:hover{
     color:#fff;
@@ -41,7 +48,6 @@
 .cenrtal-logo{
     margin: 0 auto;
     display: block;
-    margin-top: 15%;
     max-width: 100%;
     height: auto;
 }
