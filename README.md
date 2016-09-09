@@ -1,9 +1,9 @@
-angular-componetet-template by Denys Arkhipenko
+Fast start with angular 1.5.8 components by Denys Arkhipenko
 
 1. clone repo;
 2. npm & bower install;
 3. type command 'gulp';
-
+4. npm test (Jasmine/Karama tests)
 
 Gulp plugins:
 - "@angular/router": "^0.2.0",
@@ -25,4 +25,10 @@ Gulp plugins:
 - "gulp-sourcemaps": "^1.6.0",
 - "gulp-uglify": "^2.0.0",
 - "normalize.css": "^4.2.0",
-- "rimraf": "^2.5.4"
+- "rimraf": "^2.5.4",
+- "gulp": "gulpjs/gulp#4.0",
+- "jasmine": "^2.5.1",
+- "jasmine-core": "^2.5.1",
+- "karma": "^1.2.0",
+- "karma-chrome-launcher": "^2.0.0",
+- "karma-jasmine": "^1.0.2"

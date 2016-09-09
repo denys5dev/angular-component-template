@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "@angular/router": "^0.2.0",
     "angular": "^1.5.8",
     "angular-component-router-active": "0.0.6",
+    "angular-mocks": "^1.5.8",
     "angular-router": "0.0.2",
     "angular-ui-router": "^0.3.1",
     "browser-sync": "^2.14.0",
@@ -31,6 +32,11 @@
     "rimraf": "^2.5.4"
   },
   "devDependencies": {
-    "gulp": "gulpjs/gulp#4.0"
+    "gulp": "gulpjs/gulp#4.0",
+    "jasmine": "^2.5.1",
+    "jasmine-core": "^2.5.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
   }
 }

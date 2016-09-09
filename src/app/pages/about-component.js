@@ -1,20 +1,18 @@
-(function(){
+(function () {
     'use strict';
 
     var module = angular.module('app');
-    
-    function aboutCtrl($http){
-        
+
+    function aboutCtrl($http) {
+
         var model = this;
-        
-        model.$onInit = function(){
 
+        model.$onInit = function () {
             var gitHubLink = 'https://api.github.com';
-
-            $http.get(gitHubLink + '/repos/denys5dev/angular-component-template').then(function(res){
+            $http.get(gitHubLink + '/repos/denys5dev/angular-component-template').then(function (res) {
 
                 model.user = res.data;
-
+                
             });
         }
 
@@ -25,4 +23,4 @@
         controllerAs: 'model',
         controller: ['$http', aboutCtrl]
     });
-}());
+} ());
